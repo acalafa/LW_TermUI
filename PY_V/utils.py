@@ -20,8 +20,6 @@ def get_command(menu_key: int) -> int:
   
   if keyshift == 0: return int((menu_key-(menu_key%10))/10) #remove the last digit of the menu key
   elif keyshift<10: return ((menu_key*10)+keyshift) #single-digit menu entries for now
-  elif keyshift<1000: return -1 #reserve 1k+ for functions.
-  #if you want more directories, just increase 1k to 10k, etc.
   else: return int(newcomm) #At this point, we're returning a command value. Go ahead and use it as-is.
 
 ##########################################################################################

@@ -27,20 +27,20 @@ menu_114: str = \
 "-----MENU 114-----\n\n\
 0. ..\n"
 
-menu_2: str = \
-"-----MENU 002-----\n\n\
+menu_12: str = \
+"-----MENU 0012-----\n\n\
 0. ..\n\
 1. option\n"
 
-menu_21: str = \
-"-----MENU 021-----\n\n\
+menu_121: str = \
+"-----MENU 121-----\n\n\
 0. ..\n\
-1. option\n\
+1. runfunction\n\
 2. option\n\
 3. option\n"
 
-menu_213: str = \
-"-----MENU 213-----\n\n\
+menu_1213: str = \
+"-----MENU 1213-----\n\n\
 0. ..\n"
 
 
@@ -51,7 +51,7 @@ dict_menus: dict[int, str] = \
 113: menu_113,
 1131: menu_1131,
 114: menu_114,
-2: menu_2,
-21: menu_21,
-213: menu_213
+12: menu_12,
+121: menu_121,
+1213: menu_1213
 }
